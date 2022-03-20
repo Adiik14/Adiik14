@@ -1,0 +1,80 @@
+@font-face {
+font-family: B52;
+src: local("B52"),
+url(../fonts/b52.ttf);
+}
+
+
+body{
+  background-image: url(../images/back.jpg);
+  background-size: cover;
+  font-family: B52;
+}
+
+#some {
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 900;
+  font-variant: small-caps;
+}
+
+.ar1 {
+  color: red;
+}
+
+.s1 {
+  color: red;
+  background-color: black;
+}
+
+.d0 {
+  background-color: purple;
+  width: 400px;
+  height: 400px;
+  margin: 100px 100px 100px 100px;
+  padding-left: 50px;
+  padding-top: 50px;
+  position: absolute;
+  top: 0px; left: 0px;
+  border: solid;
+}
+
+.d1 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  z-index: 3;
+}
+
+.d2 {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  z-index: 3;
+}
+
+.d3 {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+}
+
+.image{
+  width: 200px;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 20%;
+  box-shadow: 0 4px 8px 0 black;
+}
+
+.spong{
+  width: 100%;
+  height: 80%;
+  opacity: 1;
+}
+
+.text{
+  position: absolute;
+  top: 190px; left: 28px;
+}
